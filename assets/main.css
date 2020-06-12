@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background: #f4f5f6;
+}
+
+header {
+  background: red;
+  padding: 0.5em 0 0.5em 0;
+}
+
+.cloud-icon {
+  align-self: center;
+}
+
+p {
+  color: white;
+  margin:0 0 0 0.5em;
+}
+
+.clima {
+  align-content: center;
+}
+
+.cloud-icon {
+  fill:white;
+}
+
+.main-logo svg {
+  fill: white;
+}
+
+.date-portion {
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.login-btn {
+  text-transform: uppercase;
+  color: white;
+}
+
+.subscribe-btn {
+  background: yellow;
+  text-transform: uppercase;
+  border-radius: 25px;
+}
+
+.subscribe-btn::after {
+content: ">";
+margin-left: .6em;
+}
+
+.top-buttons {
+  justify-content: flex-end;
+  align-items: center;
+}
