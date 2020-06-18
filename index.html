@@ -10,14 +10,14 @@
   </head>
   <body class ="container d-flex flex-column flex-wrap align-items-center col-lg-12">
     <header class="container row page-header d-flex justify-content-between">
-      <div class="date-portion col-lg-3 d-lg-block d-sm-none d-md-none d-none">
-        <div class="d-flex justify-content-start">
+      <div class="date-portion col-lg-3 d-flex justify-content-around flex-column">
+        <div class="justify-slef-start d-lg-block d-sm-none d-md-none d-none">
           <svg class="bi bi-cloud-fill d-flex cloud-icon align-middle" width="1.2em" height="1.2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" d="M3.5 13a3.5 3.5 0 1 1 .59-6.95 5.002 5.002 0 1 1 9.804 1.98A2.5 2.5 0 0 1 13.5 13h-10z"/>
           </svg>
           <p>26° Guadalajara, MX <img src="https://g.newsweek.com/img/weather/ic-white-arrow.png" class="weather-arrow"></p>
         </div>
-        <div>
+        <div class="d-lg-block d-sm-none d-md-none d-none">
           <p>Fri, Jun 12, 2020</p>
         </div>
       </div>
@@ -35,17 +35,17 @@
       </div>
     </header>
     <nav class="container d-flex flex-wrap navbar navbar-expand-lg navbar-light bg-light font-weight-bold justify-content-between">
-      <a class="navbar-brand nav-link" href="#">U.S.</a>
-      <a class="navbar-brand nav-link" href="#">World</a>
-      <a class="navbar-brand nav-link" href="#">Business</a>
-      <a class="navbar-brand nav-link" href="#">Tech & Science</a>
-      <a class="navbar-brand nav-link" href="#">Culture</a>
-      <a class="navbar-brand nav-link" href="#">Newsgeek</a>
-      <a class="navbar-brand nav-link" href="#">Sports</a>
-      <a class="navbar-brand nav-link" href="#">Health</a>
-      <a class="navbar-brand nav-link" href="#">The Debate</a>
-      <a class="navbar-brand nav-link" href="#">Vantage</a>
-      <a class="navbar-brand nav-link" href="#">Weather</a>
+      <a class="nav-link" href="#">U.S.</a>
+      <a class="nav-link" href="#">World</a>
+      <a class="nav-link" href="#">Business</a>
+      <a class="nav-link" href="#">Tech & Science</a>
+      <a class="nav-link" href="#">Culture</a>
+      <a class="nav-link" href="#">Newsgeek</a>
+      <a class="nav-link" href="#">Sports</a>
+      <a class="nav-link" href="#">Health</a>
+      <a class="nav-link" href="#">The Debate</a>
+      <a class="nav-link" href="#">Vantage</a>
+      <a class="nav-link" href="#">Weather</a>
       <form class="form-inline" action="index.html" method="post">
         <input class="form-control" type="search" placeholder="Search...">
         <button type="button" class="btn btn-light" name="button"><svg class="bi bi-search" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -55,38 +55,82 @@
       </button>
       </form>
     </nav>
-    <section class="container d-flex">
-      <div class="col-lg-3">
-        <div class="card">
-  <img class="card-img-top" src="..." alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <div class="container d-flex flex-row justify-content-end margin-remove padding-remove b-white">
+    <div class="container  col-lg-4">
+    <section class="feature-stories container col-lg-12 d-lg-flex flex-column justify-content-around margin-remove padding-remove">
+      <h2 class="text-uppercase">feature stories</h2 >
+        <img src="https://d.newsweek.com/en/full/1600890/qualified-immunity-could-stall-police-reform.webp?w=397&h=265&q=90&f=afa24ed874ca0a729b335007aad24705" alt="image1">
+        <h2 class="tittle">Immunity For Police Threatens to Stall Federal Police Reform Bills</h2>
+        <p>The topic has emerged as one with little common ground and could create an impasse for lawmakers amid their sprint to overhaul the country's law enforcement agencies before leaving town for a two-week Fourth of July recess.</p>
+        <img src="https://d.newsweek.com/en/full/1600894/iran-south-korea-oil-tankers.webp?w=397&h=265&q=90&f=d838cfb8368e376d262819f0c60948b9" alt="image2">
+        <h2 class="tittle">First North Korea, Now Iran Warns South Korea Over Its Ties to U.S.</h2>
+        <p>Both North Korea and Iran have hit out South Korea over its perceived over-dependence on a decades-long alliance with the United States.</p>
+        <img src="https://d.newsweek.com/en/full/1600810/trump-rose-garden-white-house-getty.webp?w=397&h=265&q=90&f=340d6f30d4443678fc7955c2d331125a" alt="image3">
+        <h2 class="tittle">Trump Said There Is an AIDS Vaccine, Experts Say President Is Confused</h2>
+        <p>Trump made the comments while speaking about a potential vaccine against the coronavirus.</p>
+        <img src="https://d.newsweek.com/en/full/1600782/face-mask.webp?w=397&h=265&q=90&f=35b617237b7404e35236fda6c55aa465" alt="image4">
+        <h2 class="tittle">North Carolina Woman Starts 'Burn Your Mask' Challenge to 'Ignite Freedom'</h2>
+        <p>The challenge has been met with criticism, with one social media user saying: "Your bravery is immense. What a hero burning equipment that could protect workers in hospitals."</p>
+    </section>
   </div>
-</div>
-      </div>
-      <div class="col-lg-6">
-        <div class="card">
-          <img class="card-img-top" src="..." alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+    <div class="container col-lg-4 padding-remove margin-remove">
+    <section class="col-lg-12 d-lg-flex flex-column justify-content-end padding-remove">
+      <h2 class="text-uppercase">top stories</h2>
+      <img src="https://d.newsweek.com/en/full/1601147/daca-supreme-court.webp?w=591&h=364&l=48&t=58&f=deb4c17765088f26702f21d147c11315" alt="image1">
+      <h2 class="tittle">Roberts Sides with Supreme Court Liberals to Stop Trump Undoing DACA</h2>
+      <p>Hundreds of thousands of people in the U.S. are protected from deportation under the DACA program.</p>
+      <div class="container d-flex flex-column margin-remove padding-remove">
+        <h3 class="sub-tittle text-uppercase">my turn</h3>
+        <div class="d-flex flex-row margin-remove padding-remove">
+          <div class="container margin-remove padding-remove">
+            <img src="https://d.newsweek.com/en/full/1600640/shipwreck-mexico-manuel-polanco.webp?w=397&h=397&f=8d5f8c1f3ebf3e266c922100c3aa3a53" alt="sea image" class="img-sizing">
+            <p>'I Discovered a 200-Year-Old Shipwreck Off the Coast of Mexico'</p>
+          </div>
+          <div class="container margin-remove padding-remove">
+            <img src="https://d.newsweek.com/en/full/1600598/barbie-lockdown-parody-family.webp?w=397&h=397&f=337703b081d7694ca74eb5bb5ec9ecae" alt="dolls image" class="img-sizing">
+            <p>'I'm a Grandmother Re-creating Lockdown Life With My 'Quarantine Barbies''</p>
+          </div>
+          <div class="container margin-remove padding-remove">
+            <img src="https://d.newsweek.com/en/full/1599913/disability-soccer-personal-development-coaching.webp?w=397&h=397&f=482746ee2363ea7ea56e26626c333725" alt="soccer image" class="img-sizing">
+            <p>'I Was in a Wheelchair, Now I'm Walking and Coach a Disability Soccer Team'</p>
           </div>
         </div>
       </div>
-      <div class="col-lg-3">
-        <div class="card">
-          <img class="card-img-top" src="..." alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
+      <div class="container d-flex flex-column margin-remove padding-remove">
+        <h3 class="sub-tittle text-uppercase">Culture and travel</h3>
+        <div class="d-flex flex-row margin-remove padding-remove">
+        <div class="container margin-remove padding-remove">
+          <img src="https://d.newsweek.com/en/full/1597833/cul-uncharted-culturaladaptations-banner.webp?w=397&h=397&f=45dbf98fecdde1fdc4bef1cd1fa698de" alt="trafic image" class="img-sizing">
+          <p>Cultural Adaptations in the Time of Corona</p>
+        </div>
+        <div class="container margin-remove padding-remove">
+          <img src="https://d.newsweek.com/en/full/1600331/traveler-wears-mask-airport.webp?w=397&h=397&f=74096feff240f7c68e3bbfd4b86a3a0b" alt="Corona person" class="img-sizing">
+          <p>How Coronavirus Has Impacted Travelers of Color</p>
+        </div>
+        <div class="container margin-remove padding-remove">
+          <img src="https://d.newsweek.com/en/full/1598286/just-mercy.webp?w=397&h=397&f=7d4b78805dce4e5570bbbec195c8e391" alt="black lives matter" class="img-sizing">
+          <p>A Resource Guide to Educate Yourself About Racial Injustice in America</p>
+        </div>
         </div>
       </div>
     </section>
+  </div>
+  <div class="container col-lg-4">
+  <section class="col-lg-12 d-lg-flex flex-column align-middle">
+    <h4 class="text-uppercase">the depabate</h4>
+    <div class="container d-lg-flex flex-row flex-nowrap">
+      <img src="https://d.newsweek.com/en/full/1591942/rachel-bovard.webp?w=150&h=150&f=059104d19ab9b5734af4aeca003f5c78" alt="Rachel Bovard" class="photo-sizing">
+      <p>The Time Is Now to Rein in Big Tech By Rachel Bovard</p>
+    </div>
+    <div class="">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div class="">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </section>
+</div>
+  </div>
   </body>
   <!-- JS, Popper.js, and jQuery -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
