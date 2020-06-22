@@ -1,5 +1,4 @@
 body {
-  margin: 0;
   background: #f4f5f6;
   font-family: "Roboto Condensed",sans-serif;
 }
@@ -68,4 +67,14 @@ margin-left: .6em;
 .photo-sizing {
   width: 4rem;
   height: 4rem;
+}
+
+.dabate-vs-tittle {
+  border-bottom: .2rem solid #f92859;
+  padding-bottom: .5rem;
+}
+
+.dabate-vs {
+  margin-top: .5rem;
+  padding-top: .5rem;
 }
