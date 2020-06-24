@@ -8,6 +8,11 @@ header {
   padding: 0.5em 0 0.5em 0;
 }
 
+.container {
+  max-width: 1310px;
+  margin: 0 auto;
+}
+
 .margin-remove {
   margin: 0;
 }
@@ -77,4 +82,19 @@ margin-left: .6em;
 .dabate-vs {
   margin-top: .5rem;
   padding-top: .5rem;
+}
+
+.feature-btn {
+  background: #f4f5f6;
+}
+
+.article-img {
+  margin-top: 1rem;
+  width: 16em;
+  height: 20rem;
+}
+
+.editor-img {
+  width: 16rem;
+  height: 12rem;
 }
