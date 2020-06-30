@@ -131,8 +131,12 @@ a:hover {
 
 .footer-logo {
   fill: red;
+  height: 31px;
+  weight: 236px;
 }
 
 .social-media-icons {
+  height: 24px;
+  width: 26px;
   fill: #666;
 }
