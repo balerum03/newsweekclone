@@ -30,11 +30,11 @@ a:hover {
 
 .date-portion p {
   color: white;
-  margin:0 0 0 0.5em;
+  margin: 0 0 0 0.5em;
 }
 
 .cloud-icon {
-  fill:white;
+  fill: white;
 }
 
 .main-logo svg {
@@ -54,8 +54,8 @@ a:hover {
 }
 
 .subscribe-btn::after {
-content: ">";
-margin-left: .6em;
+  content: ">";
+  margin-left: 0.6em;
 }
 
 .nav-link {
@@ -79,13 +79,13 @@ margin-left: .6em;
 }
 
 .dabate-vs-tittle {
-  border-bottom: .2rem solid #f92859;
-  padding-bottom: .5rem;
+  border-bottom: 0.2rem solid #f92859;
+  padding-bottom: 0.5rem;
 }
 
 .dabate-vs {
-  margin-top: .5rem;
-  padding-top: .5rem;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
 }
 
 .b-light-gray {
@@ -130,7 +130,7 @@ margin-left: .6em;
 }
 
 .footer-logo {
-  fill:red;
+  fill: red;
 }
 
 .social-media-icons {
