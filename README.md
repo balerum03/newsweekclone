@@ -20,7 +20,7 @@ Live demo link : [live link](https://raw.githack.com/balerum03/newsweekclone/clo
 
 - Github: @balerum03
 - Twitter: @balerum03
-- Linkedin: [Adan Fernandez Bonilla](https://www.linkedin.com/in/adan-fernandez-bonilla-4560831a5)                                         \
+- Linkedin: [Adan Fernandez Bonilla](https://www.linkedin.com/in/adan-fernandez-bonilla-4560831a5)                                         
 
 ## 🤝 Contributing
 
