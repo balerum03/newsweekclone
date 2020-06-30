@@ -2,9 +2,9 @@
 
 > On this project, I created a page based on newsweek.com, the purpose of this project was to learn how to use Bootstrap so I used as many classes from Bootstrap as possible.
 
-![screenshot] (assets/images/Capture1.PNG)
-![screenshot] (assets/images/Capture2.PNG)
-![screenshot] (assets/images/Capture3.PNG)
+![screenshot](assets/images/Capture1.png)
+![screenshot](assets/images/Capture2.png)
+![screenshot](assets/images/Capture3.png)
 
 Live demo link : [live link](https://raw.githack.com/balerum03/newsweekclone/clone-page/index.html)
 
