@@ -1,6 +1,8 @@
 body {
   background: #f4f5f6;
   font-family: "Roboto Condensed",sans-serif;
+  font-size: 15px;
+  line-height: 20px;
 }
 
 header {
@@ -8,16 +10,18 @@ header {
   padding: 0.5em 0 0.5em 0;
 }
 
-.container {
-  max-width: 1310px;
-  margin: 0 auto;
+a {
+  color: black;
 }
 
-.margin-remove {
-  margin: 0;
+a:hover {
+  text-decoration: underline red;
+  color: black;
 }
-.padding-remove {
-  padding: 0;
+
+.container-fluid {
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .b-white {
@@ -41,6 +45,10 @@ header {
   color: white;
 }
 
+.debate-bb {
+  border-bottom: 0.2rem solid blue;
+}
+
 .subscribe-btn {
   border-radius: 25px;
 }
@@ -54,10 +62,6 @@ margin-left: .6em;
   padding: 0;
   text-decoration: none;
   color: black;
-}
-
-.feature-stories {
-  width: 100%;
 }
 
 .img-sizing {
@@ -84,7 +88,7 @@ margin-left: .6em;
   padding-top: .5rem;
 }
 
-.feature-btn {
+.b-light-gray {
   background: #f4f5f6;
 }
 
@@ -97,4 +101,38 @@ margin-left: .6em;
 .editor-img {
   width: 16rem;
   height: 12rem;
+}
+
+.magazine-sub-sec {
+  max-height: 420px;
+}
+
+.magazine-sub {
+  position: relative;
+  z-index: 1;
+  min-width: 280px;
+  height: 241px;
+  margin: auto;
+}
+
+.image-bottom {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 0;
+}
+
+.image-top {
+  position: absolute;
+  z-index: 3;
+  left: 80px;
+  top: 10px;
+}
+
+.footer-logo {
+  fill:red;
+}
+
+.social-media-icons {
+  fill: #666;
 }
