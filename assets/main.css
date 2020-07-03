@@ -140,3 +140,7 @@ a:hover {
   width: 26px;
   fill: #666;
 }
+
+.five-articles {
+  max-width: 340px;
+}
